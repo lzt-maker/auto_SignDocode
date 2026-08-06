@@ -3,7 +3,7 @@ name: Docode自动签到
 on:
   workflow_dispatch:  # 支持手动点按钮运行
   schedule:
-    - cron: '21 9 * * *' # UTC时间，对应北京时间早上7点执行，可自行修改
+    - cron: '0 1,2 * * *' # UTC时间，对应北京时间早上1点执行，可自行修改
       timezone: Asia/Shanghai
 jobs:
   checkin_job:
