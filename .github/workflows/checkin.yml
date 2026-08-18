@@ -3,7 +3,7 @@ name: Docode自动签到
 on:
   workflow_dispatch:  # 支持手动点按钮运行
   schedule:
-    - cron: '42 16,17 * * *'
+    - cron: '42 16 * * *'
 
 jobs:
   checkin_job:
